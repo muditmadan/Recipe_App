@@ -1,0 +1,59 @@
+/* Home.css */
+
+.home-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.recipes {
+  display: flex;
+  flex-wrap: wrap; /* Ensure recipes wrap to the next line if space is limited */
+  gap: 20px; /* Gap between recipes */
+}
+
+.recipe {
+  width: calc(50% - 10px); /* Two recipes side by side with gap */
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  overflow: hidden;
+  box-sizing: border-box; /* Ensure padding is included in the width calculation */
+}
+
+.recipe:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.recipe img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px 8px 0 0; /* Rounded corners only at the top */
+  margin-bottom: 10px;
+}
+
+.recipe-details {
+  padding: 10px;
+}
+
+.recipe-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.recipe-instructions {
+  margin-top: 10px;
+  color: #333333;
+}
+
+.recipe-cooking-time {
+  margin-top: 10px;
+  color: #666666;
+}
+
+.save-button {
+  margin-top: 10px; /* Space above the button */
+  padding: 5px 10px; /* Smaller padding for the save button */
+}

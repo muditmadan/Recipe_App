@@ -1,0 +1,75 @@
+/* Auth.css */
+
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f2f5;
+  }
+  
+  .auth {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .auth-form-container {
+    display: flex;
+    gap: 40px; /* Increase the space between forms */
+    max-width: 800px; /* Adjust max-width as needed */
+    width: 100%;
+    padding: 40px;
+  }
+  
+  .login-form,
+  .register-form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 50%; /* Each form takes 50% of the auth-form-container width */
+    box-sizing: border-box; /* Ensure padding is included in width */
+  }
+  
+  .login-form h2,
+  .register-form h2 {
+    margin-bottom: 24px;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 24px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 12px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: calc(100% - 24px); /* Adjust width to leave space for padding */
+    padding: 16px;
+    font-size: 18px; /* Increase font size as needed */
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-sizing: border-box; /* Ensure padding is included in width calculation */
+  }
+  
+  .btn-primary {
+    width: 100%;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: #2e3b55;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #1a2639;
+  }
+  

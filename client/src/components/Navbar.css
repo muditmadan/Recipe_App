@@ -1,0 +1,46 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 10px 20px;
+  color: #333; /* Dark font color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for depth */
+}
+
+.brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links .nav-link {
+  color: #333; /* Dark font color */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-links .nav-link:hover {
+  color: #1a2639; /* Darker color on hover */
+}
+
+.auth .logout-button {
+  background: none;
+  border: none;
+  color: #333; /* Dark font color */
+  cursor: pointer;
+}
+
+.auth .nav-link {
+  color: #333; /* Dark font color */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.auth .nav-link:hover {
+  color: #1a2639; /* Darker color on hover */
+}

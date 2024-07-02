@@ -1,0 +1,55 @@
+/* CreateRecipe.css */
+
+.create-recipe-container {
+    background-color: #f0f2f5;
+    padding: 20px;
+  }
+  
+  .form-container {
+    background-color: #f0f2f5;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .label {
+    margin-bottom: 8px;
+    display: block;
+    font-weight: bold;
+  }
+  
+  .input-field,
+  .textarea-field {
+    margin-bottom: 16px;
+    width: calc(100% - 20px); /* Adjust for padding */
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .textarea-field {
+    resize: vertical; /* Allow vertical resizing of textarea */
+  }
+  
+  .add-button,
+  .submit-button {
+    margin-top: 16px;
+    width: calc(100% - 20px); /* Adjust for padding */
+    padding: 12px;
+    border-radius: 4px;
+    background-color: #2e3b55;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-button:hover,
+  .submit-button:hover {
+    background-color: #1a2639;
+  }
+  

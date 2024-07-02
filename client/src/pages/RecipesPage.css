@@ -1,0 +1,48 @@
+/* RecipesPage.css */
+
+.recipes-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .recipe {
+    width: calc(50% - 20px); /* Two recipes side by side with gap */
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    overflow: hidden;
+  }
+  
+  .recipe:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .recipe img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0; /* Rounded corners only at the top */
+    margin-bottom: 10px;
+  }
+  
+  .recipe-details {
+    padding: 10px;
+  }
+  
+  .recipe-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .recipe-description {
+    color: #666666;
+  }
+  
+  .recipe-cooking-time {
+    margin-top: 10px;
+    color: #666666;
+  }
+  
